@@ -1,0 +1,13 @@
+#box {
+    display: inline-block; /*adapta ao conteudo*/
+    /*tiramos esta propriedade width: 630px; pois a div por padrao é display: block, ou seja... ocupa a tela inteira*/
+    background-color: #3A4042;
+    /*podemos tirar este elemento: height: 184px; pois estamos trabalhando com o padding*/
+    box-shadow: 10px 10px 0px #000;
+    text-align: center; /*centraliza os elementos de dentro*/
+    padding: 42px 44px;
+}
+
+#box h1 {
+    margin-bottom: 28px;
+}
