@@ -10,7 +10,7 @@ nav {
     text-align: right;
 }
 
-a {
+header a {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -21,7 +21,7 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+header a::before {
     content: "";
     background-color: #F25A70;
     width: 10px;
@@ -43,4 +43,60 @@ a::before {
 
 #button:hover {
     transform: scale(1.08);
+}
+
+.title {
+    width: 627px;
+    height: 184px;
+    box-shadow: 10px 10px 0px #000;
+    background-color: #3A4042;
+    margin-top: 116px;
+    margin-left: 91px;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 40px;
+    color: #F25A70;
+    text-shadow: 4px 4px 0px #000;
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    padding-top: 42px;
+}
+
+.title h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 0px #000;
+    font-family: "Press Start 2P";
+    padding-top: 28px;
+}
+
+.Download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    margin: 38px 112px 0px 181px;
+    text-decoration: none;
+    font-family: "Fira Code";
+    color: white;
+    font-size: 20px;
+}
+
+.contacts {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 60px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    text-decoration: none;
+    font-family: "Fira Code";
+    color: white;
+    font-size: 20px;
 }
