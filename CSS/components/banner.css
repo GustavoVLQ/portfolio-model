@@ -1,0 +1,25 @@
+.banner {
+    box-sizing: border-box;
+    background-image: url(../../assets/img/bannernw.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 10px solid #000;
+    padding-top: 116px;
+    padding-left: 91px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
