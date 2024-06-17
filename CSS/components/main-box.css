@@ -1,4 +1,4 @@
-.box {
+.main-box {
     display: inline-block; /*adapta ao conteudo*/
     /*tiramos esta propriedade width: 630px; pois a div por padrao é display: block, ou seja... ocupa a tela inteira*/
     background-color: #3A4042;
@@ -8,6 +8,6 @@
     padding: 42px 44px;
 }
 
-.box .title {
+.main-box .title {
     margin-bottom: 28px;
 }
