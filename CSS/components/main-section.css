@@ -16,3 +16,8 @@
 .main-section.-bdFirst {
     border-color: #F25A70;
 }
+
+.main-section.-bgPurple.-bdBlack{
+    background-color: #7C5E99;
+    border-bottom: 10px solid black;
+}
