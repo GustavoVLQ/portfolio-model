@@ -1,7 +1,9 @@
-.description {
+.main-description {
     font-family: "Fira Code";
     font-weight: 300;
     font-size: 30px;
-    text-align: start;
     color: white;
+    line-height: 1.3;
+    padding-left: 50px;
+    padding-right: 50px;
 }
