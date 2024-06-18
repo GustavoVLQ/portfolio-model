@@ -5,3 +5,9 @@
     border-bottom: 10px solid black;
     padding: 10px 20px;
 }
+
+@media (max-width: 980px) {
+    .main-header > .menu {
+        display: none;
+    }
+}

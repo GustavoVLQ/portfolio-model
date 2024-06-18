@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/components/main-header.css">
+    <link rel="stylesheet" href="CSS/components/icon-menu.css">
     <link rel="stylesheet" href="CSS/components/main-banner.css">
     <link rel="stylesheet" href="CSS/components/main-title.css">
     <link rel="stylesheet" href="CSS/components/main-subtitle.css">
@@ -43,7 +44,10 @@
 <body>
     <header class="main-header">
         <img src="assets/img/logo.png">
-        <nav> <!--navigation-->
+
+        <a href="#menu" class="icon-menu">Abrir menu</a>
+
+        <nav id="menu" class="menu"> <!--navigation-->
             <a class="main-action" href="">Skills</a>
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
@@ -238,13 +242,13 @@
         <legend class="main-title -second">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+        <input class="main-input" id="name" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
+        <textarea class="main-input -textarea" id="message" required></textarea>
 
         <button class="main-button -full" type="submit">Enviar</button>
     </form>
