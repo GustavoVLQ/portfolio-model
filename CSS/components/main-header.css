@@ -6,8 +6,17 @@
     padding: 10px 20px;
 }
 
+
+/*De 0 - 980*/
 @media (max-width: 980px) {
     .main-header > .menu {
+        display: none;
+    }
+}
+
+/*De 980 até onde der*/
+@media (min-width: 980px) {
+    .main-header > .icon-menu {
         display: none;
     }
 }
